@@ -1,0 +1,39 @@
+# OpenClaw internal
+.openclaw/
+.clawhub/
+
+# Logs
+*.log
+logs/
+
+# Credentials and secrets
+credentials/
+*.key
+*.pem
+.env
+.env.local
+
+# API tokens and keys (sensitive)
+**/token*
+**/secret*
+**/password*
+**/api_key*
+
+# Config files that may contain secrets
+config/secrets.json
+config/credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Session data (contains conversation history)
+sessions/
