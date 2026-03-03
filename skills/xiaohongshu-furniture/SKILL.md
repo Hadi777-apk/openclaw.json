@@ -23,14 +23,14 @@ description: AI修图技能。用于将任何照片通过AI进行处理，如将
 
 ## 图片生成命令
 
-使用 curl 调用 Nano Banana API：
+使用 curl 调用 Nano Banana API（免费模型）：
 
 ```bash
 curl -X POST "https://new.suxi.ai/v1/chat/completions" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $NANO_BANANA_API_KEY" \
   -d '{
-    "model": "gemini-2.5-flash-image",
+    "model": "gemini-2.5-flash-free",
     "messages": [{"role": "user", "content": "Generate an image: [你的提示词]"}]
   }'
 ```
@@ -63,6 +63,6 @@ echo "$base64_image" | base64 -d > output.png
 
 ## 注意事项
 
-1. 目前使用 Nano Banana (gemini-2.5-flash-image) 模型
-2. 需要确保API余额充足
+1. 目前使用 Nano Banana 免费模型 (gemini-2.5-flash-free)
+2. 免费模型可能有并发限制
 3. 图片生成可能需要几十秒时间
