@@ -37,3 +37,4 @@ temp/
 
 # Session data (contains conversation history)
 sessions/
+.backup/
