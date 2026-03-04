@@ -3,4 +3,3 @@
 0 8 * * * /Users/john/.openclaw/workspace/scripts/daily-news.sh >> /Users/john/.openclaw/workspace/data/news.log 2>&1
 0 9 3 4 * cd /Users/john/.openclaw/workspace && python3 check_portfolio.py >> /Users/john/.openclaw/workspace/data/portfolio_check.log 2>&1
 0 0 * * * cd /Users/john/.openclaw/workspace && /Users/john/.openclaw/workspace/scripts/voice_skills_installer.sh >> /Users/john/.openclaw/workspace/data/voice_skills.log 2>&1
-0 1 * * * cd /Users/john/.openclaw/workspace && /Users/john/.openclaw/workspace/scripts/auto_stock_learning.sh >> /Users/john/.openclaw/workspace/data/stock_learning.log 2>&1
