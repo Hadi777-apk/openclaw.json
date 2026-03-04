@@ -2,6 +2,8 @@
 
 **心跳检查已禁用**
 
-定时任务由 Windows 计划任务执行：
-- 🌤️ OpenClaw-Daily-Weather → 每天 7:00
-- 📰 OpenClaw-Daily-News → 每天 8:00
+定时任务由 macOS 执行（通过 OpenClaw cron）：
+- 🌤️ 天气推送 → 每天 7:00（三天天气预报）
+- 📰 新闻推送 → 每天 8:00（热点新闻）
+
+**备注**: 原 Windows 计划任务已废弃，现由 Mac 统一管理。

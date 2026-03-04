@@ -1,0 +1,3 @@
+# OpenClaw 定时任务
+30 7 * * * /Users/john/.openclaw/workspace/scripts/daily-weather.sh >> /Users/john/.openclaw/workspace/data/weather.log 2>&1
+0 8 * * * /Users/john/.openclaw/workspace/scripts/daily-news.sh >> /Users/john/.openclaw/workspace/data/news.log 2>&1
