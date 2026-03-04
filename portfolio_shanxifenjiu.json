@@ -1,0 +1,12 @@
+{
+  "stock_code": "600809.SH",
+  "stock_name": "山西汾酒",
+  "buy_date": "2026-03-04",
+  "buy_price": 161.68,
+  "shares": 61,
+  "initial_capital": 10000,
+  "actual_cost": 9862.48,
+  "remaining_cash": 137.52000000000044,
+  "check_date": "2026-04-03",
+  "status": "holding"
+}
